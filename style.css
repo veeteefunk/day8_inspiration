@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #bacf9f;
+    width: 33%;
+    height: 78vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1 {
+    margin: 1rem 0.6rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.source {
+    margin: 1rem 0.6rem; 
+}
+
+.means {
+    margin: 1rem 0.6rem; 
+}
+
+.inspired {
+    margin: 1rem 0.6rem 1.6rem 0.6rem; 
+}
+.inspired > p {
+    margin: 0.8rem 0.1rem; 
+}
+
+.square-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.square {
+    border: solid 1px black;
+    width: 24px;
+    height: 24px;
+    margin-right: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.inspired .puntos {
+    display: inline-block;
+    border-bottom: solid 1px black;
+    width: 85%;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .notes {
+    margin-right: 17rem;
+    margin-left: 0.8rem;
+}
